@@ -1,1 +1,1 @@
-This folder contains GMM with nested fixed point. 
+This folder contains GMM estimation with nested fixed point. 
