@@ -1,0 +1,4 @@
+0.50  sd_beta1
+0.50  sd_beta2
+0.25  sd_alpha
+

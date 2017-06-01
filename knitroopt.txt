@@ -1,0 +1,13 @@
+algorithm	2
+maxit	50
+gradopt 3
+hessopt	6
+outlev	5
+outmode both
+blasoption 0
+debug 	0
+presolve 0 
+linsolver 4
+bar_switchrule 1
+bar_directinterval 100000
+honorbnds 1
