@@ -76,11 +76,7 @@ int main(void)
   //============================================================================
   // Read in the starting parameter values
   //============================================================================
-  strcpy(directoryInput,"/home/ysun/mc/data/dataLarge/blpHigh/");
-  //strcpy(directoryInput,"/Users/yutecsun/git/lte/montecarlo/dynblp4/data/dataSmall/blpHigh/");
-  //strcpy(directoryInput,"/Users/yutecsun/git/lte/montecarlo/dynblp4/data/dataTiny/");
-  
-  //strcpy(directoryInput, "./");
+  strcpy(directoryInput,"./data/");
   strcpy(filenameData, directoryInput);
   strcpy(filenameRand, directoryInput);
   strcpy(filenameParam, directoryInput);

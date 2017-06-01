@@ -36,9 +36,4 @@ int **idx;
 const int rcID[]={0,2,3,5}; // Index for variables of random coefficient
 
 const char
-directoryInput[1024]="/home/ysun/mc/data/dataLarge/blpMid/";
-//directoryInput[1024]="/home/opt/work/data/dataLarge/blpMid/";
-//directoryInput[1024]="/Users/mbp/git/lte/data/dblp4/dataLarge/blpHigh/";
-//directoryInput[1024]="/Users/mbp/git/lte/data/dblp4/dataMed/blpHigh/";
-//directoryInput[1024]="/Users/mbp/git/lte/data/dblp4/dataSmall/blpLow/";
-//directoryInput[1024]="/home/yt/work/data/dataLarge/blpHigh/";
+directoryInput[1024]="./data/";

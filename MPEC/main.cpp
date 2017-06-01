@@ -51,14 +51,7 @@ int main(void) {
   //============================================================================
   // Read in the starting parameter values
   //============================================================================
-  //strcpy(directoryInput,"/scratch/ys2904/data/dataSmall/blpHigh/");
-  //strcpy(directoryInput,"/scratch/ys2904/data/dataLarge/");
-  //strcpy(directoryInput,"/scratch/ys2904/data/dataSmall/blpLow/");
-  strcpy(directoryInput,"/home/ysun/mc/data/dataLarge/blpHigh/");
-  //strcpy(directoryInput,"/home/yt/work/montecarlo/dynblp4/data/dataMed/");
-  //strcpy(directoryInput,"/home/yt/work/montecarlo/dynblp4/data/dataSmall/");
-  //strcpy(directoryInput,"/home/yt/work/montecarlo/dynblp4/data/dataTiny/");
-  //strcpy(directoryInput,"/Users/yutecsun/git/lte/montecarlo/dynblp4/data/dataLarge/blpHigh/");
+  strcpy(directoryInput,"./data/");
   strcpy(filenameData, directoryInput);
   strcpy(filenamePar, directoryInput);
   strcpy(filenameRand, directoryInput);
