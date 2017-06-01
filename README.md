@@ -1,7 +1,7 @@
 # LTE
 
 This program runs the second & third Monte Carlo experiments of dynamic BLP
-demand estimation using Pseudo fixed point algorithm (Sun & Ishihara, 2017).
+demand estimation using the Pseudo Fixed Point algorithm (Sun & Ishihara, 2017).
 
 Compiling and running the program requires GSL (GNU Scientific Libraray) package,
 which can be obtained at "http://www.gnu.org/software/gsl/". Specify the path to
