@@ -1,6 +1,6 @@
 # Pseudo fixed point algorithm for dynamic BLP demand estimation
 
-This program runs the second & third Monte Carlo experiments of Sun & Ishihara (2017) that estimate the dynamic BLP
+This program runs the second & third Monte Carlo experiments of Sun & Ishihara (2017) (https://ssrn.com/abstract=2140617) that estimate the dynamic BLP
 demand using the Nested Fixed Point, Pseudo Fixed Point, and MPEC algorithms. 
 
 Compiling and running the program requires GSL (GNU Scientific Libraray) package (http://www.gnu.org/software/gsl). Specify the header path and link to the GSL library in the Makefile. You will also need GCC or an equivalent compiler, GNU Make, and R (https://cran.r-project.org) installed with Coda & RInside libraries. For NFP & MPEC, Artely's KNITRO is required (https://www.artelys.com). In addition, MPEC makes use of ADOL-C (https://projects.coin-or.org/ADOL-C) and ColPack (http://www.cs.odu.edu/~dnguyen/dox/colpack/html). 
