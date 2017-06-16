@@ -15,7 +15,7 @@ n_mc        =     20,     // # of Monte Carlo experiments
 mc_last     =     20,     // index of the last MC experiment
 mc_init     =      1,     // index of the first MC experiment
 n_seed      =      5,
-n_thin      =      1,
+n_thin      =     10,
 n_theta     = n_theta1 + n_theta2,
 n_obs       = n_period * n_product; // # of total sample observations
 
