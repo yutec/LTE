@@ -1,4 +1,4 @@
-# Pseudo fixed point algorithm for dynamic BLP demand estimation
+# The pseudo fixed point (PFP) algorithm
 
 This program runs the second & third Monte Carlo experiments of Sun & Ishihara (2017) (https://ssrn.com/abstract=2140617) that estimate the dynamic BLP
 demand using the Nested Fixed Point, Pseudo Fixed Point, and MPEC algorithms. 
@@ -10,3 +10,5 @@ in the Linux & Mac OS. The Makefile uses the GCC compiler while standard
 C/C++ compilers should work with no problem.
 
 A sample of data simulation codes written for Matlab is available in the subfolder "data." Users can run it to generate all the necessary data in the txt format for the Monte Carlo exercise. The C++ codes (extern.cpp or main.cpp) need to be updated with the correct path for the input data files as well as the global constants defined therein. For MPEC, it is strongly recommended to have more than 20GBs of physical RAM for successful experiment in the large data setting. 
+
+Information on the authors can be found at http://people.stern.nyu.edu/mishihar/ and https://sites.google.com/site/yutecsuncom.
